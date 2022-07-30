@@ -10,7 +10,7 @@
   "coluna_artista": "artist_name",
   "tabela_que_contem_artista": "artists",
   "coluna_album": "album_name",
-  "tabela_que_contem_album": "albuns",
+  "tabela_que_contem_album": "albums",
   "coluna_cancoes": "music_name",
   "tabela_que_contem_cancoes": "musics"
 }

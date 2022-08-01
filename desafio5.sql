@@ -5,5 +5,5 @@ FROM SpotifyClone.musics AS m
 JOIN SpotifyClone.history as h
 ON h.music_id = m.music_id
 GROUP BY cancao
-ORDER BY COUNT(h.music_id) DESC
+ORDER BY COUNT(h.music_id) DESC, cancao
 LIMIT 2;
